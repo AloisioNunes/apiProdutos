@@ -1,13 +1,12 @@
-# apiProdutos
-Api em Node.js para avaliação
+# Api para Avaliação:
 
-*Considerações gerais do funcionamento da API
+## Cosiderações gerais
 
-Para iniciar a API, basta rodar o arquivo 'server.js' no Node.js
+- A API foi desenvolvida em JavaScript (Node.js)
+- Para iniciar o servidor, basta rodar o `server.js` com o Node.js
 
-*Base de dados
+## Banco de dados:
 
--O banco de dados utilizado é o PostgreSQL na versão 13
--A dependência 'pg' já está instalada em 'node_modules'
--O SQL de criação do banco está localizado em banco/sql.txt
-
+- O banco de dados utilizado é o PostgreSQL 13 e sua dependência é `pg`
+- O SQL de criação encontra-se em `banco/sql.txt`
+- A classe que contém os dados de conexão encontra-se em `app/database/db-pg.js`
